@@ -25,4 +25,16 @@ class HomeController extends Controller
     {
         return view('home');
     }
+    public function layout()
+    {
+        return view('layout');
+    }
+    public function contact()
+    {
+        return view('frontend.contact');
+    }
+    public function category()
+    {
+        return view('frontend.categories');
+    }
 }
