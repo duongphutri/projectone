@@ -1,4 +1,4 @@
- <!-- partial:../../partials/_sidebar.html -->
+ {{-- <!-- partial:../../partials/_sidebar.html -->
  <nav class="sidebar sidebar-offcanvas" id="sidebar">
      <ul class="nav">
          <li class="nav-item">
@@ -106,4 +106,4 @@
              </a>
          </li>
      </ul>
- </nav>
+ </nav> --}}

@@ -23,14 +23,16 @@
     <div class="super_container">
 
         <!-- Header -->
-        @include('pages.header')
-        <!-- End Header -->
-        @yield('content')
-        @include('pages.content')
-        <!-- Newsletter -->
-        <!-- Footer -->
-        @include('pages.footer')
-
+        @include('frontend.pages.header')
+        <div class="class=container-fluid page-body-wrapper">
+            <!-- End Header -->
+            @yield('content')
+            @include('frontend.pages.content')
+            <!-- Newsletter -->
+            </div>
+            <!-- Footer -->
+            @include('frontend.pages.footer')
+        
 
     </div>
 
